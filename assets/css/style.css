@@ -6,11 +6,4 @@
     border: none;
 }
 
-.logo {
-    background: url(../images/hero-image.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 600px;
-    transition: all .5s ease-in-out
-}
+
