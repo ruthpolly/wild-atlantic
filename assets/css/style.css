@@ -11,6 +11,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 700px;
+    min-height: 600px;
     transition: all .5s ease-in-out
 }
