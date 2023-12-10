@@ -2,10 +2,10 @@
 {% block content %}
     <!-- Opening Hours -->   
     <section>
-        <div style="padding: 2%; background-image: url(../assets/images/hero-image.png); background-position: center;
+        <div style="padding: 2%; background-image: url('{{ url_for('static', filename='images/hero-image.png') }}'); background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 600px;" >
+        min-height: 600px;">
             <div class="badge badge-primary text-wrap" style="width: 20%; background-color:rgb(22, 35, 42);opacity:0.9; color: #9EBCC7; line-height: normal; font-size: larger; float: right; clip-path: padding-box;">
                 <h3>Opening Hours</h3>
                 <ul>
