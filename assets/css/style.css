@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium:100,200,300,400,500,600,700|Open+Sans:100,200,300,400,500,600,700');
 
-header {
+* {
     margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .logo {
@@ -9,6 +11,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 700px;
     transition: all .5s ease-in-out
 }
